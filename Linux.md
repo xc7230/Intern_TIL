@@ -19,7 +19,6 @@
     ![image](./image/linux/5.png)<br/>
     다음과 같이 `도구` 밑에 가상머신이 생성됐다.<br/>
 - 생성된 가상머신 실행해서 초기 설정을 해준다.<br/>
-    ![image](./image/linux/6.png)<br/>
     ![image](./image/linux/11.png)<br/>
     ![image](./image/linux/10.png)<br/>
     ![image](./image/linux/12.png)<br/>
@@ -126,6 +125,3 @@
     |ps -e|현재 사용자뿐만 아니라 다른 사용자의 프로세스까지 출력|
     |ps -f|더 상세한 정보 출력|
     |ps -l|-f 보다 더 상세한 정보 출력|    
-
-
-asdasd
