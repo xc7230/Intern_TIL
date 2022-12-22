@@ -20,6 +20,11 @@
     다음과 같이 `도구` 밑에 가상머신이 생성됐다.<br/>
 - 생성된 가상머신 실행해서 초기 설정을 해준다.<br/>
     ![image](./image/linux/6.png)<br/>
+    ![image](./image/linux/11.png)<br/>
+    ![image](./image/linux/10.png)<br/>
+    ![image](./image/linux/12.png)<br/>
+    ![image](./image/linux/13.png)<br/>
+    ![image](./image/linux/14.png)<br/>
     ![image](./image/linux/7.png)<br/>
     ![image](./image/linux/8.png)<br/>
     비밀번호와 유저를 생성해주고 기다리다보면 Reboot 버튼이 나오고 누르면 기본 셋팅이 끝난다.<br/>
@@ -45,6 +50,7 @@
 |cat|파일 내용을 화면에 출력, 리다이렉션 기호('>')를 사용하여 새로운 파일 생성|
 |alias|자주 사용하는 명령러들을 별명으로 쉽게 사용할 수 있도록 설정|
 |find|특정 파일이나 디렉토리를 검색|
+|ps|실행중인 프로세스를 출력|
 
 ### 2.2. 명령어 상세 설명
 - ls(List segments) : 현재 위치의 파일 목록 조회<br/>
@@ -113,3 +119,10 @@
     |---|---|
     |cat file1 firle2 > file3|file1, file2의 명령 결과를 합쳐서 file3라는 파일에 저장|
     |cat file4|file3에 file4의 내용 추가|
+
+- ps(Process status) : 실행중인 프로세스 목록과 상태를 출력<br/>
+    |명령어|내용|
+    |---|---|
+    |ps -e|현재 사용자뿐만 아니라 다른 사용자의 프로세스까지 출력|
+    |ps -f|더 상세한 정보 출력|
+    |ps -l|-f 보다 더 상세한 정보 출력|    
