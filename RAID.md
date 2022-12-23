@@ -21,3 +21,14 @@
 - RAID 5는 각 HDD에 패리티(Parity) 정보를 나눠서 기록한다.
 - 패리티(Parity)란 디스크 장애가 일어나면 디스크 데이터를 복구해 주는 정보를 말한다.
 
+### 2.4. RAID 6
+![image](./image/raid/4.png)<br/>
+- RAID 5와 같은 방식에 패리티를 이중으로 생성한 구조다.
+
+### 2.5. RAID 10(RAID 1+0)
+![image](./image/raid/5.png)<br/>
+- RAID 1과 RAID 0을 조합한 방식
+
+### 2.6. RAID 50(RAID 5+0)
+![image](./image/raid/6.png)<br/>
+- RAID 5와 RAID 0의 방식을 조합한 방식
