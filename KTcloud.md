@@ -44,3 +44,11 @@ server를 정지 후 상세 정보에서 SSH Key를 추가해준다음 실행해
 - putty에 `root@네트워크ip`를 입력해준다.
 - ppk파일을 선택한 다음 `open`을 누르면 KT cloud에서 생성한 server의 콘솔에 원격으로 접속할 수 있다.
 
+## Load Balancer
+만약 Load Balancer 서비스가 보이지 않는다면 `All Services`에 들어가 `서비스 신청`으로 `Load Balancer`를 활성화 해준다.<br/>
+![image](./image/ktcloud/22.png)<br/>
+![image](./image/ktcloud/21.png)<br/>
+
+## Object Storage
+### Storage 2.0 생성
+만약 Storage 2.0 서비스가 보이지 않는다면 `All Services`에 들어가 `서비스 신청`으로 `Storage 2.0`를 활성화 해준다.<br/>
