@@ -49,6 +49,35 @@ server를 정지 후 상세 정보에서 SSH Key를 추가해준다음 실행해
 ![image](./image/ktcloud/22.png)<br/>
 ![image](./image/ktcloud/21.png)<br/>
 
+## WAF(웹방화벽)
+### WAF 생성하기
+![image](./image/ktcloud/23.png)<br/>
+모두 기본 설정으로 생성<br/>
+
+### WAF 설정하기
+`Server-Networking`에 생성된 네트워크 중 기본형 네트워크에 포트포워딩 설정을 해준다.<br/>
+![image](./image/ktcloud/24.png)<br/>
+내가 생성한 WAF Name을 선택, 포트를 설정해준다.<br/>
+![image](./image/ktcloud/25.png)<br/>
+`Load Balancer`에 웹 서버가 아닌, 기본 네트워크에 연결한 WAF의 포트를 추가해준다.
+![image](./image/ktcloud/26.png)<br/>
+
+### WAF에 WEB Server 연결하기
+WAPPLES 대시보드에 접속<br/>
+![image](./image/ktcloud/27.png)<br/>
+`프록시 IP`에서 WAF의 주소를 추가해준다.(IP는 WAF 상세정보 보기를 보면 있다.)
+![image](./image/ktcloud/28.png)<br/>
+`보호 대상 서버`에 다음과 같은 정보를 입력해주고 추가를 해준다. 웹 서버 IP에는 지난번 만들었던 Web server의 사설 IP를 넣었다.<br/>
+![image](./image/ktcloud/29.png)<br/>
+로드 밸런서 IP에 접속하면 WAF에 연결된 WebServer가 연결된다.<br/>
+![image](./image/ktcloud/30.png)<br/>
+도메인 까지 보안을 설정하고 싶으면 `정책 설정` 에서 도메인을 추가해준다.<br/>
+![image](./image/ktcloud/31.png)<br/>
+
+
+
+
+
 ## Object Storage
 ### Storage 2.0 생성
 만약 Storage 2.0 서비스가 보이지 않는다면 `All Services`에 들어가 `서비스 신청`으로 `Storage 2.0`를 활성화 해준다.<br/>
