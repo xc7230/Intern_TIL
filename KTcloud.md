@@ -74,10 +74,3 @@ WAPPLES 대시보드에 접속<br/>
 도메인 까지 보안을 설정하고 싶으면 `정책 설정` 에서 도메인을 추가해준다.<br/>
 ![image](./image/ktcloud/31.png)<br/>
 
-
-
-
-
-## Object Storage
-### Storage 2.0 생성
-만약 Storage 2.0 서비스가 보이지 않는다면 `All Services`에 들어가 `서비스 신청`으로 `Storage 2.0`를 활성화 해준다.<br/>
