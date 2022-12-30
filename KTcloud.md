@@ -74,3 +74,23 @@ WAPPLES 대시보드에 접속<br/>
 도메인 까지 보안을 설정하고 싶으면 `정책 설정` 에서 도메인을 추가해준다.<br/>
 ![image](./image/ktcloud/31.png)<br/>
 
+
+## Auto Scaling
+오토스케일링 그룹을 생성하려면 선행으로 로드밸런싱을 끝내야 한다.<br/>
+
+### Launch Configuration
+![image](./image/ktcloud/32.png)<br/>
+![image](./image/ktcloud/33.png)<br/>
+
+### Auto Scaling Group
+![image](./image/ktcloud/34.png)<br/>
+![image](./image/ktcloud/35.png)<br/>
+![image](./image/ktcloud/36.png)<br/>
+
+### Triger
+![image](./image/ktcloud/37.png)<br/>
+![image](./image/ktcloud/38.png)<br/>
+내가 원하는 트리거 설정을 해준다.<br/>
+![image](./image/ktcloud/39.png)<br/>
+![image](./image/ktcloud/40.png)<br/>
+![image](./image/ktcloud/41.png)<br/>
