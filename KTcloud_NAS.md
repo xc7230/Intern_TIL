@@ -1,4 +1,7 @@
 # NAS
+
+## NAS의 종류
+
 ## NAS 생성하기
 ![image](./image/ktcloud_nas/1.png)<br/>
 ![image](./image/ktcloud_nas/2.png)<br/>
