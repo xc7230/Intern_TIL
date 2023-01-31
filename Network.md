@@ -53,7 +53,22 @@ OSI 7 Layer는 국제표준화 기구(ISO)에서 개발한 모델로, 컴퓨터 
 - 대표 장치 : Router(라우터), L3 Switch
 - 프로토콜 : IP, ARP/NDP, RIP, RIP v2, OSPF, IGRP, EIGRP, BGP 등등의 Routing Protocol, AS번호, NAT 등
 
+#### 2계층(데이터링크 계층)
+데이터링크 계층은 상위 계층인 네트워크 계층에서 받은 데이터 프레임이라는 논리적인 단위로 구성하고 필요한 정보를 덧붙여 물리 계층으로 전달한다.<br/> 
 
+- 단위 - frame
+- 대표 장치 - L2 Switch, 모뎀, 기지국, 인터넷 공유기, Wi-Fi 공유기
+- 프로토콜 : CSMA/CD, CSMA/CA, Slott Aloha, DAC/ADC, Multiplexer, Demultiplexer, MAC주소 관리 등
+
+#### 1계층(물리 계층)
+물리 계층은 실제 장치들을 연결하기 위해 필요한 케이블 및 연결 장치 등과 같은 기계적인 항목과 전압, 신호 방식 등의 전기적인 항목에 대한 특성을 규정한다.<br/>
+
+- 단위 : bit
+- 대표 장치 : 동축케이블, 안테나, Hub, 리피터
+- 프로토콜 : 이더넷, USB 등 케이블 , Bluetooth, Wi-Fi, LTE, 5G 등 안테나
+
+### TCP/IP
+OSI 7계층이 네트워크 전송의 데이터 표준이라고 한다면, TCP/IP 4계층은 이를 실제로 사용하는 인터넷 표준이다.
 
 이런식으로 주석을 달 수 있다.<sup>[1](#footnote_1)</sup>
 
